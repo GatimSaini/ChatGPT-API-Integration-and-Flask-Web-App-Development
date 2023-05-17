@@ -1,0 +1,22 @@
+Designed to facilitate easy interaction with the ChatGPT API, the Python Flask web application offers users a simple way of entering questions or prompts to receive corresponding responses based on contextual clues provided by said model. Its functionalities can be summarized as follows:
+
+1. Homepage:
+   - Provides users an uncomplicated form where they can submit their inquiries or prompts. 
+   - Once submitted this form sends input data back to the server for further processing. 
+
+2. Results Page:
+   - After entering their inquiry or prompt users initiate an API call via this application which interfaces with ChatGPT model using given input information
+   - The responses thus obtained are subsequently shown on a dedicated results page. 
+   - This page displays both original user input and its relevant generated response from ChatGPT
+
+3: Integration into ChatGPT API 
+   - For effective integration with said model; Pythons requests library has been employed to assist in managing communications between app & ChatGPT. 
+   - The success of an API call considerably relies on incorporating relevant user input as a message to provide context for the model. 
+   - Moreover, this application boasts efficient management of all possible API errors or failed requests by displaying necessary error messages wherever required. 
+
+4. Web Development Principles:
+   - To adhere to web development principles effectively, this application primarily focuses on developing its frontend using HTML,CSS,and JavaScript.
+   - Similarly,thisapplicationensuresresponsiveness throughout its functionality thereby providing seamless viewing experience across varied device types and screen dimensions.
+   - Compatibility with mainstream web browsers is given significant consideration during development. 
+
+The integration of Flask, HTML/CSS/JavaScript, and the ChatGPT API equips this web application with a user-friendly and accessible interface for individuals to engage with the ChatGPT model. Consequently, helpful answers can be received for various queries or prompts.
