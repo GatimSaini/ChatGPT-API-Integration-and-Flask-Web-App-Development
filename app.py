@@ -15,7 +15,7 @@ def home():
 # ChatGPT API call
 def chat(question):
     # Make an API call to ChatGPT and return the response
-    api_key = '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'
+    api_key = 'YOUR_API_KEY'
     url = 'https://api.openai.com/v1/chat/completions'
     headers = {
         'Content-Type': 'application/json',
