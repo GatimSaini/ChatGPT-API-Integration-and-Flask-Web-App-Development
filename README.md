@@ -26,6 +26,7 @@ To activate this virtual environment:
 These steps should help you set up your Python Flask web application without any problem. Ready for some serious advanced technology? 
 
 Then lets go! 
+
 5. The fifth step is installing required Python packages via "pip install -r requirements.txt". 
 6. Next head over to OpenAI and acquire an API key after following their informative documentation. 
 7. Once you've taken these necessary steps its time launch the Flask application locally via "python app.py". 
